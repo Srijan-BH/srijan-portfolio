@@ -321,6 +321,20 @@ document.addEventListener('DOMContentLoaded', () => {
             techStack: ["Python (Flask)", "MongoDB Atlas", "Flask-SocketIO", "WebSockets", "Mapbox API", "JavaScript", "JWT Auth"],
             liveUrl: "https://ngo-volunteer-system-x469.onrender.com",
             githubUrl: "https://github.com/Srijan-BH"
+        },
+        hostel: {
+            title: "Hostel Management System",
+            category: "Mobile App (Flutter)",
+            overview: "Enterprise-grade mobile application built with Flutter and Firebase, featuring dedicated interfaces for students and administrators.",
+            features: [
+                "Real-time analytics dashboard & automated smart room allocation using batching algorithms.",
+                "Firebase Cloud Messaging (FCM) for instant push notifications and alerts.",
+                "Dynamic PDF report generation for student directories and executive summaries.",
+                "End-to-end leave management and maintenance request tracking systems."
+            ],
+            techStack: ["Flutter (Dart)", "Firebase Auth", "Cloud Firestore", "FCM", "FL Chart", "PDF Generator"],
+            liveUrl: "",
+            githubUrl: "https://github.com/Srijan-BH/-hostel-management-system"
         }
     };
 
