@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
                 <div style="display: flex; gap: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
-                    <a href="${data.liveUrl}" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live App</a>
+                    ${data.liveUrl ? `<a href="${data.liveUrl}" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live App</a>` : ''}
                     <a href="${data.githubUrl}" target="_blank" class="btn btn-outline btn-sm"><i class="fa-brands fa-github"></i> Source Code</a>
                 </div>
             `;
